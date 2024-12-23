@@ -1,0 +1,58 @@
+# Gradle関連の無視
+.gradle/
+build/
+gradle/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+.idea/
+# Gradleラッパー用ファイル
+gradlew
+gradlew.bat
+
+# IDE関連（Spring Tool Suite）
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+# IntelliJ IDEA関連
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+# NetBeans関連
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code関連
+### VS Code ###
+.vscode/
+
+# OSによって生成されるファイル
+.DS_Store
+Thumbs.db
+
+# ログファイルやコンパイルされたファイル
+*.log
+*.class
+
+# 一時ファイルやキャッシュファイル
+*.tmp
+*.bak
